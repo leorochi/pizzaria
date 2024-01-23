@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Port+Lligat+Slab&display=swap');
+.menu {
+  display: flex;
+  justify-content: space-around;
+  background-color: #28272A;
+}
+
+
+.titulo {
+  background-color: #28272A;
+  text-align: center;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  padding: 30px;
+  margin-top: -20px;
+}

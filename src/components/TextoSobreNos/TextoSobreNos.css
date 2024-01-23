@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+.text {
+  flex: 1; /* Ocupa todo o espaço disponível na largura */
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.text h1 {
+  font-size: 2rem;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.text p {
+  margin-bottom: 1.7rem;
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+}
+
+a {
+  color: #CFDF5A;
+}

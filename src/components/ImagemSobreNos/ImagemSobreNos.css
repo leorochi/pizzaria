@@ -1,0 +1,9 @@
+.image {
+  margin-left: 100px; /* Adapte a margem conforme necessário para espaçar a imagem do texto */
+  margin-top: 100px;
+}
+
+img {
+  width: 500px;
+  height: 200px;
+}

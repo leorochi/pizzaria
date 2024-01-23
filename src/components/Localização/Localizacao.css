@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Port+Lligat+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+.container-loc {
+display: flex;
+background-color: #1E1E20;
+justify-content: space-around;
+}
+
+.localizacao {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.localizacao h1 {
+  text-align: center;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+
+  font-size: 2.5rem;
+}
+
+.localizacao h2 {
+  color: #959595; 
+  margin-top: 30px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.localizacao p {
+  color: #959595;
+  margin-bottom: 1.7rem;
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  font-family: 'Port Lligat Slab', serif;
+  font-size: 1.1rem;
+}
+
+.pedido {
+  margin-top: 50px;
+}
+
+.pedido h1 {
+  text-align: center;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.5rem;
+}
+
+.pedido h2 {
+  color: #959595; 
+  margin-top: 30px;
+  font-family: 'Oswald', sans-serif;
+
+}
+
+.pedido p {
+  color: #959595;
+  margin-bottom: 1.7rem;
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+  font-family: 'Port Lligat Slab', serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+
+

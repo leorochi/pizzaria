@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Port+Lligat+Slab&display=swap');
+li {
+  margin: 5px;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+  font-family: 'Port Lligat Slab', serif;
+  font-size: 18px;
+}
+
+li:hover {
+  color: #CFDF5A;
+}
+
+.icons ul {
+  display: flex;
+  list-style: none;
+  margin-top: 30px;
+}
