@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+.sabores {
+  display: flex;
+  background-color: #252426;
+  justify-content: space-around;
+}
+
+.title h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.5rem;
+  color: #C0C0C0;
+  text-align: center; 
+  padding-top: 100px;
+  margin-bottom: 20px;
+}
+
+.title {
+  background-color: #252426;
+}
+
+.border-pizza {
+  background-color: #393939;
+  border: 3px solid #393939;
+  width: 1000px;
+  margin: auto;
+}
+
+.saboresp1 {
+  margin-left: 100px;
+}
+
+.saboresp1 h2 {
+  color: #959595;
+  font-family: 'Oswald', sans-serif;
+  margin-top: 30px;
+}
+
+.saboresp1 p {
+  font-family: 'Port Lligat Slab', serif;
+  color: white;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  margin-top: 1.2rem;
+}
+
+.linha-pontilhada p {
+  color: #959595;
+  font-size: 10px;
+
+}
+
+.saboresp2 h2 {
+  color: #959595;
+  font-family: 'Oswald', sans-serif;
+  margin-top: 30px;
+}
+
+.saboresp2 p {
+  font-family: 'Port Lligat Slab', serif;
+  color: white;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  margin-top: 1.2rem;
+  width: 400px;
+}
+
+.linha-pontilhada p {
+  color: #959595;
+  font-size: 10px;
+
+}
+
+
