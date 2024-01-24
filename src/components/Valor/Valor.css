@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+.price {
+  display: flex;
+  background-color: #0F0F0D;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.price h1 {
+  font-family: 'Oswald', sans-serif;
+  color: #959595;
+  font-size: 2.7rem;
+  margin-bottom: 30px;
+  margin-top: 35px;
+}
+.price h2 {
+  font-family: 'Oswald', sans-serif;
+  color: #959595;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.price img {
+  width: 825px;
+  height: 351px;
+  margin-bottom: 30px;
+}
