@@ -4,6 +4,7 @@ import SobreNos from "./components/SobreNos";
 import Banner from "./components/Banner/Banner";
 import Localizacao from "./components/Localização/Localizacao";
 import Horario from "./components/Horario";
+import Promocao from "./components/Promoções";
 
 function App() {
   
@@ -15,6 +16,7 @@ function App() {
      <SobreNos/>
      <Localizacao/>
      <Horario/>
+     <Promocao/>
     </>
   )
 }

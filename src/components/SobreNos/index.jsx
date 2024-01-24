@@ -4,12 +4,12 @@ import ImagemSobreNos from '../ImagemSobreNos';
 
 const SobreNos = () => {
   return (
-    <div className='container'> 
+    <main className='container'> 
     <section className="text-image">
       <TextoSobreNos/>
       <ImagemSobreNos/>
     </section>
-    </div>   
+    </main>   
   )
 }
 
