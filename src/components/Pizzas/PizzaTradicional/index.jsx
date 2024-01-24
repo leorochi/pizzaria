@@ -1,3 +1,4 @@
+import Tamanho from '../../Tamanhos';
 import './PizzaTradicional.css';
 
 const PizzaTradicional = () => {
@@ -22,38 +23,39 @@ const PizzaTradicional = () => {
     'VEGETARIANA': 'Champignon, milho verde, cebola e tomate, mussarela e molho de tomate especial'
   }
 
-  return (
-    <main className='container-pizzas'>
-      <div className="title">
-        <h1>PIZZAS TRADICIONAIS</h1>
-        <div className='border-pizza'></div>
-      </div>
-      <section className='sabores'>
-        <section className='saboresp1'>
-          {Object.entries(sabores).map(([sabor, descricao]) =>
-            <>
-            <h2 key={sabor}>{sabor}</h2>
-            <div className='linha-pontilhada'>
-              <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>
-            </div>
-            <p key={descricao}>{descricao}</p>
-            </>
-          )}
-        </section>
-        <section className='saboresp2'>
-            {Object.entries(saboresP2).map(([sabor, descricao]) =>
-            <>
-            <h2 key={sabor}>{sabor}</h2>
-            <div className='linha-pontilhada'>
-            <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>
-            </div>
-            <p key={descricao}>{descricao}</p>
-            </>
+    return (
+      <main className='container-pizzas'>
+        <div className="title">
+          <h1>PIZZAS TRADICIONAIS</h1>
+          <div className='border-pizza'></div>
+        </div>
+        <section className='sabores'>
+          <section className='saboresp1'>
+            {Object.entries(sabores).map(([sabor, descricao]) =>
+              <>
+              <h2 key={sabor}>{sabor}</h2>
+              <div className='linha-pontilhada'>
+                <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>
+              </div>
+              <p key={descricao}>{descricao}</p>
+              </>
             )}
+          </section>
+          <section className='saboresp2'>
+              {Object.entries(saboresP2).map(([sabor, descricao]) =>
+              <>
+              <h2 key={sabor}>{sabor}</h2>
+              <div className='linha-pontilhada'>
+              <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>
+              </div>
+              <p key={descricao}>{descricao}</p>
+              </>
+              )}
+          </section>
         </section>
-      </section>
-    </main>
-  )
+        <Tamanho/>
+      </main>
+    )
 }
 
 export default PizzaTradicional

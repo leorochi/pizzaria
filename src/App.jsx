@@ -6,7 +6,7 @@ import Localizacao from "./components/Localização/Localizacao";
 import Horario from "./components/Horario";
 import Promocao from "./components/Promoções";
 import Valor from "./components/TabelaValores";
-import PizzaTradicional from "./components/PizzaTradicional";
+import Pizza from "./components/Pizzas/Pizza";
 
 function App() {
   
@@ -20,7 +20,7 @@ function App() {
      <Horario/>
      <Promocao/>
      <Valor/>
-     <PizzaTradicional/>
+     <Pizza/>
     </>
   )
 }
