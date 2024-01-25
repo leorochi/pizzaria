@@ -1,5 +1,7 @@
+import Valor from "../TabelaValores";
+import Tamanho from "../Tamanhos";
 import PizzaCategoria from "./PizzaCategoria";
-
+import valores from '../../images/valores.png';
 
 
 const saboresTradicionais = {
@@ -71,21 +73,58 @@ const saboresPremium = {
   }
 }
 
+const saboresDoces = {
+  PD1: {
+    'ALEGRIA COM CHOCOLATE BRANCO': 'Chocolate branco, confeitos coloridos e mussarela',
+    'ALEGRIA COM CHOCOLATE PRETO': 'Chocolate preto, confeitos coloridos e mussarela',
+    'BRANCA DE NEVE': 'Chocolate branco, chocolate preto, morangos e mussarela',
+  },
+
+  PD2: {
+    'CHOCOLATE BRANCO + CHOCOLATE PRETO': 'Chocolate Preto,chocolate branco e mussarela',
+    'VIA LÁCTEA': 'Chocolate branco, nozes e mussarela'
+  }
+
+}
+
 const Pizza = () => {
   return (
     <section>
+      <Valor 
+     titulo='SABORES TRADICIONAIS'
+     precoSuperFamilia='R$ 116,00' 
+     precoFamilia='R$ 99,00' 
+     precoGrande='R$ 84,00' 
+     precoMedia='R$ 66,00' 
+     precoPequena='R$ 49,00'
+     valores={valores}/>
       <PizzaCategoria 
-      title='PIZZA TRADICIONAL' 
+      title='PIZZAS TRADICIONAIS' 
       sabores={saboresTradicionais.PT1} 
       saboresP2={saboresTradicionais.PT2}/>
+      <Tamanho/>
       <PizzaCategoria 
-      title='PIZZA ESPECIAL' 
+      title='PIZZAS ESPECIAIS' 
       sabores={saboresEspeciais.PE1} 
       saboresP2={saboresEspeciais.PE2}/>
+      <Tamanho/>
       <PizzaCategoria 
-      title='PIZZA PREMIUM' 
+      title='PIZZAS PREMIUM' 
       sabores={saboresPremium.PP1} 
       saboresP2={saboresPremium.PP2}/>
+      <Tamanho/>
+      <PizzaCategoria 
+      title='PIZZAS DOCES' 
+      sabores={saboresDoces.PD1} 
+      saboresP2={saboresDoces.PD2}/>
+      <Valor 
+     titulo='SABORES DOCES'
+     precoSuperFamilia='R$ 133,00' 
+     precoFamilia='R$ 116,00' 
+     precoGrande='R$ 102,00' 
+     precoMedia='R$ 75,00' 
+     precoPequena='R$ 58,00'
+     textoDoce='Pizzas super família, família e grande até 4 sabores – Pizzas média e pizza pequena até 2 sabores'/>
     </section>
   )
 }

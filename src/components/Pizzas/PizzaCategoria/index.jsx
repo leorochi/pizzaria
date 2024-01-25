@@ -1,5 +1,4 @@
 /* eslint-disable react/prop-types */
-import Tamanho from '../../Tamanhos';
 import './PizzaCategoria.css';
 
 
@@ -34,7 +33,6 @@ const PizzaCategoria = ({title, sabores, saboresP2}) => {
             )}
         </section>
       </section>
-      <Tamanho/>
     </main>
   )
 }
